@@ -7,6 +7,11 @@ def mysqltests(sql):
     '''
     >>> mysqltests('select count(*) from user')
     9
+
+
+
+
+
     >>>
     '''
     conn = mysql.connector.connect(host=db_cfg['host'],
@@ -23,7 +28,6 @@ def mysqltests(sql):
         print "\n"
 
 if __name__ == '__main__':
-    #mysqltests('select * from user')
     import doctest
     doctest.testmod()
 
