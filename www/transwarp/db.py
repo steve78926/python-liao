@@ -136,13 +136,13 @@ engine = None
 
 class _Engine(object):
 
-    def __init__(self, connect):
+    def __init__(self, connect):                    # connect对应一个lambda 匿名函数
         self._connect = connect
 
     def connect(self):
         return self._connect()
 
-def create_engine(user, password, database, host='192.168.152.132', port=3306, **kw):
+def create_engine(user, password, database, host='127.0.0.1', port=3306, **kw):
     import mysql.connector
     global engine
     if engine is not None:

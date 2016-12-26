@@ -11,7 +11,6 @@ import uuid, time, threading,logging, functools
 class Dict(dict):
     '''
      Simple dict but support access as x.y style.
-
     >>> d1 = Dict()
     >>> d1['x'] = 100
     >>> d1.x
@@ -29,7 +28,7 @@ class Dict(dict):
     >>> d2.empty
     Traceback (most recent call last):
         ...
-    AttributeError: 'Dict' object has no attribute 'empty'
+    AttributeError: 'Dict object has no attribute 'empty'
     >>> d3 = Dict(('a', 'b', 'c'), (1, 2, 3))
     >>> d3.a
     1
@@ -77,7 +76,7 @@ class MultiColumnsError(DBError):
 
 class _LazyConnection(object):
 
-    def __init(self):
+    def __init__(self):                 #error:  __init  ---> __init__
         self.connection = None
 
     def cursor(self):
@@ -254,7 +253,6 @@ def transaction():
     Create a transaction object so can use with statement:
     with transaction():
         pass
-
     >>> def update_profile(id, name, rollback):
     ...     u = dict(id=id, name=name, email='%s@test.org' % name, passwd=name, last_modified=time.time())
     ...     insert('user', **u)
@@ -278,7 +276,6 @@ def transaction():
 def with_transaction(func):
     '''
      A decorator that makes function around transaction.
-
     >>> u1 = dict(id=100, name='Alice', email='alice@test.org', passwd='ABC-12345', last_modified=time.time())
     >>> u2 = dict(id=101, name='Sarah', email='sarah@test.org', passwd='ABC-12345', last_modified=time.time())
     >>> insert('user', **u1)
@@ -328,7 +325,6 @@ def select_one(sql, *args):
     Execute select SQL and expected one result.
     If no result found, return None.
     If multiple results found, the first one returned
-
     >>> u1 = dict(id=100, name='Alice', email='alice@test.org', passwd='ABC-12345', last_modified=time.time())
     >>> u2 = dict(id=101, name='Sarah', email='sarah@test.org', passwd='ABC-12345', last_modified=time.time())
     >>> insert('user', **u1)
@@ -349,7 +345,6 @@ def select_one(sql, *args):
 def select_int(sql, *args):
     '''
      Execute select SQL and expected one int and only one int result.
-
     >>> n = update('delete from user')
     >>> u1 = dict(id=96900, name='Ada', email='ada@test.org', passwd='A-12345', last_modified=time.time())
     >>> u2 = dict(id=96901, name='Adam', email='adam@test.org', passwd='A-12345', last_modified=time.time())
@@ -379,7 +374,6 @@ def select_int(sql, *args):
 def select(sql, *args):
     '''
     Execute select SQL and return list or empty list if no result.
-
     >>> u1 = dict(id=200, name='Wall.E', email='wall.e@test.org', passwd='back-to-earth', last_modified=time.time())
     >>> u2 = dict(id=201, name='Eva', email='eva@test.org', passwd='back-to-earth', last_modified=time.time())
     >>> insert('user', **u1)
@@ -422,7 +416,6 @@ def _update(sql, *args):
 def insert(tables, **kw):
     '''
     Execute insert SQL.
-
     >>> u1 = dict(id=2000, name='Bob', email='bob@test.org', passwd='bobobob', last_modified=time.time())
     >>> insert('user', **u1)
     1
@@ -441,7 +434,6 @@ def insert(tables, **kw):
 def update(sql, *args):
     r'''
     Execute update SQL.
-
     >>> u1 = dict(id=1000, name='Michael', email='michael@test.org', passwd='123456', last_modified=time.time())
     >>> insert('user', **u1)
     1
@@ -469,21 +461,3 @@ if __name__ == '__main__':
     update('create table user (id int primary key, name text, email text, password text, last_modified real)')
     import doctest
     doctest.testmod()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

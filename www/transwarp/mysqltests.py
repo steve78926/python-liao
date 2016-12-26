@@ -7,11 +7,6 @@ def mysqltests(sql):
     '''
     >>> mysqltests('select count(*) from user')
     9
-
-
-
-
-
     >>>
     '''
     conn = mysql.connector.connect(host=db_cfg['host'],
@@ -21,13 +16,10 @@ def mysqltests(sql):
                                use_unicode=True)
     cur = conn.cursor()
     cur.execute(sql)
-    data = cur.fetchall()
-    for row in data:
-        for col in row:
-            print col,  #变量加逗号，输出时不换行
-        print "\n"
+    print cur.fetchone()[0]
 
 if __name__ == '__main__':
+    mysqltests('select count(*) from user')
     import doctest
     doctest.testmod()
 
