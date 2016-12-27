@@ -1,0 +1,11 @@
+1. AttributeError: '_LazyConnection' object has no attribute 'connection'
+   File "D:/python-liao/python-liao/www/transwarp/db11.py", line 96, in cleanup
+   if self.connection:
+
+    解决：line 79  : class _LazyConnection(object):  def __init(self):  ----> def __init__(self):
+
+2. class _LazyConnection(object):   原db.py里_LazyConnection  是lasyConnection, 暂时不改
+
+3.  AttributeError: 'NoneType' object has no attribute 'connect'
+     File "D:/python-liao/python-liao/www/transwarp/db11.py", line 84, in cursor
+      connection = engine.connect()
