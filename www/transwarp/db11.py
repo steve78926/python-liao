@@ -116,14 +116,14 @@ class _DbCtx(threading.local):
         self.transcations = 0
 
     def cleanup(self):
-        self.connection.cleanup()
+        self.connection.cleanup()           #调用_LasyConnection对象的cleanup()
         self.connection = None
 
     def cursor(self):
         '''
         return cursor
         '''
-        return self.connection.cursor()
+        return self.connection.cursor()     #调用_LasyConnection对象的cursor()
 
 # thread-local db context
 _db_ctx = _DbCtx()
@@ -133,7 +133,7 @@ engine = None
 
 class _Engine(object):
 
-    def __init__(self, connect):
+    def __init__(self, connect):        #参数connect 实际对应一个匿名函数lambda
         self._connect = connect
 
     def connect(self):
@@ -147,7 +147,7 @@ def create_engine(user, password, database, host='127.0.0.1', port=3306, **kw):
     params = dict(user=user, password=password, database=database, host=host, port=port)
     defaults = dict(use_unicode=True, charset='utf8', collation='utf8_general_ci', autocommit=False)
     for k, v in defaults.iteritems():
-        params[k] = kw.pop(k, v)       # pop(k, v) 等同于 pop(k), kw.pop(k, v) 返回 v, 存入parames[k]中
+        params[k] = kw.pop(k, v)       # pop(k, v) 等同于 pop(k), kw.pop(k, v) 返回 v, 存入parames[k]中   #疑问: 这里的语句好像是 params[k] = v, 为什么此处把kw弹空，而下面的语句又要把kw更新到params里？
     params.update(kw)       #Python 字典 update() 函数把字典dict2的键/值对更新到dict里。dict.update(dict2), dict2 -- 添加到指定字典dict里的字典。该方法没有任何返回值。
     params['buffered'] = True
     engine = _Engine(lambda: mysql.connector.connect(**params))
@@ -167,14 +167,14 @@ class _ConnectionCtx(object):
         global _db_ctx
         self.should_cleanup = False
         if not _db_ctx.is_init():
-            _db_ctx.init()
+            _db_ctx.init()          #调用_DbCtx类的init()  --->  _LasyConnection类__init__()
             self.should_cleanup = True
         return self
 
     def __exit__(self, exctype, excvalue, traceback):
         global _db_ctx
         if self.should_cleanup:
-            _db_ctx.cleanup()
+            _db_ctx.cleanup()       #调用_DbCtx类的cleanup() ----> _LasyConnection类的cleanup()---->connection.close()
 
 def connection():
     '''
@@ -233,18 +233,18 @@ class _TransactionCtx(object):
         global _db_ctx
         logging.info('commit transaction')
         try:
-            _db_ctx.connection.commit()
+            _db_ctx.connection.commit()        #调用_LasyConnection对象的commit()
             logging.info('commit ok')
         except:
             logging.warning('commit failed. try rollback...')
-            _db_ctx.connection.rollback()
+            _db_ctx.connection.rollback()       #调用_LasyConnection对象的rollback()
             logging.warning('rollback ok')
             raise
 
     def rollback(self):
         global _db_ctx
         logging.warning('rollback transaction...')
-        _db_ctx.connection.rollback()
+        _db_ctx.connection.rollback()            #调用_LasyConnection对象的rollback()
         logging.info('rollback ok')
 
 
@@ -457,7 +457,7 @@ def update(sql, *args):
 if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG)
     create_engine('www-data', 'www-data','test')
-    update('drop tables if exitsts user')
+    update('drop tables if exists user')
     update('create table user (id int primary key, name text, email text, password text, last_modified real)')
     import doctest
     doctest.testmod()

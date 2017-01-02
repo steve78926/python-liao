@@ -9,3 +9,8 @@
 3.  AttributeError: 'NoneType' object has no attribute 'connect'
      File "D:/python-liao/python-liao/www/transwarp/db11.py", line 84, in cursor
       connection = engine.connect()
+
+4.  File "D:/python-liao/python-liao/www/transwarp/db12.py", line 340, in update
+    return _update(sql, *args)
+TypeError: 'NoneType' object is not callable
+
