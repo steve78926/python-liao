@@ -11,6 +11,17 @@
       connection = engine.connect()
 
 4.  File "D:/python-liao/python-liao/www/transwarp/db12.py", line 340, in update
-    return _update(sql, *args)
+    return _update(sql, *args)    此处不调用_update(sql, *args)
 TypeError: 'NoneType' object is not callable
+
+    解决：db12.py line: 175 装饰器return 语句缩进错误，应该提前
+
+5. 函数内部的测试部分要保证缩进正常，否则报错如下：
+ >>> select_int('select id from user where email=?', 'ada@test.org')
+ **********************************************************************
+1 items had failures:
+   1 of  10 in __main__.select_int
+***Test Failed*** 1 failures.
+
+
 
