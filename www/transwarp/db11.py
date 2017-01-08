@@ -84,7 +84,7 @@ class _LazyConnection(object):
             connection = engine.connect()
             logging.info('open connection <%s>....' % hex(id(connection)))
             self.connection = connection
-        return self.connection
+        return self.connection.cursor()                 #error: self.connection ---> self.connection.cursor()
 
     def commit(self):
         self.connection.commit()
@@ -105,7 +105,7 @@ class _DbCtx(threading.local):
     '''
     def __init__(self):
         self.connection = None
-        self.transcations = 0
+        self.transactions = 0               #error: transcations ---> transactions
 
     def is_init(self):
         return not self.connection is None
@@ -113,7 +113,7 @@ class _DbCtx(threading.local):
     def init(self):
         logging.info('open lazy connection...')
         self.connection = _LazyConnection()
-        self.transcations = 0
+        self.transactions = 0                #error: transcations ---> transactions
 
     def cleanup(self):
         self.connection.cleanup()           #调用_LasyConnection对象的cleanup()
@@ -197,7 +197,7 @@ def with_connection(func):
     def _wrapper(*args, **kw):
         with _ConnectionCtx():
             return func(*args, **kw)
-    return _wrapper
+    return _wrapper                         #error: return 缩进不正常
 
 class _TransactionCtx(object):
     '''
@@ -276,19 +276,23 @@ def transaction():
 def with_transaction(func):
     '''
      A decorator that makes function around transaction.
-    >>> u1 = dict(id=100, name='Alice', email='alice@test.org', passwd='ABC-12345', last_modified=time.time())
-    >>> u2 = dict(id=101, name='Sarah', email='sarah@test.org', passwd='ABC-12345', last_modified=time.time())
-    >>> insert('user', **u1)
-    1
-    >>> insert('user', **u2)
-    1
-    >>> u = select_one('select * from user where id=?', 100)
-    >>> u.name
-    u'Alice'
-    >>> select_one('select * from user where email=?', 'abc@email.com')
-    >>> u2 = select_one('select * from user where passwd=? order by email', 'ABC-12345')
-    >>> u2.name
-    u'Alice'
+    >>> @with_transaction
+    ... def update_profile(id, name, rollback):
+    ...     u = dict(id=id, name=name, email='%s@test.org' % name, passwd=name, last_modified=time.time())
+    ...     insert('user', **u)
+    ...     r = update('update user set passwd=? where id=?', name.upper(), id)
+    ...     if rollback:
+    ...         raise StandardError('will cause rollback...')
+    >>> update_profile(8080, 'Julia', False)
+    >>> select_one('select * from user where id=?', 8080).passwd
+    u'JULIA'
+    >>> update_profile(9090, 'Robert', True)
+    Traceback (most recent call last):
+      ...
+    StandardError: will cause rollback...
+    >>> select('select * from user where id=?', 9090)
+    []
+
     '''
     @functools
     def _wrapper(*args, **kw):
@@ -345,7 +349,7 @@ def select_one(sql, *args):
 def select_int(sql, *args):
     '''
      Execute select SQL and expected one int and only one int result.
-    >>> n = update('delete from user')
+     >>> n = update('delete from user')
     >>> u1 = dict(id=96900, name='Ada', email='ada@test.org', passwd='A-12345', last_modified=time.time())
     >>> u2 = dict(id=96901, name='Adam', email='adam@test.org', passwd='A-12345', last_modified=time.time())
     >>> insert('user', **u1)
@@ -363,7 +367,7 @@ def select_int(sql, *args):
     >>> select_int('select id, name from user where email=?', 'ada@test.org')
     Traceback (most recent call last):
         ...
-    MultiColumnsError: Expect only one column.
+    MultiColumnsError: Except only one column.
     '''
     d = _select(sql, True, *args)
     if len(d)!=1:                               # len(d) == 1  表示字典d的key数量为1
@@ -428,7 +432,7 @@ def insert(tables, **kw):
     IntegrityError: 1062 (23000): Duplicate entry '2000' for key 'PRIMARY'
     '''
     cols, args = zip(*kw.iteritems())
-    sql = 'insert into `%s` （%s) values (%s)' % (tables, ','.join(['`%s`' % col for col in cols]), ','.join(['?' for i in range(len(cols))]))
+    sql = 'insert into `%s` (%s) values (%s)' % (tables, ','.join(['`%s`' % col for col in cols]), ','.join(['?' for i in range(len(cols))]))       #error: （%s)   ----> (%s)  中文括号
     return _update(sql, *args)
 
 def update(sql, *args):
@@ -458,6 +462,6 @@ if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG)
     create_engine('www-data', 'www-data','test')
     update('drop tables if exists user')
-    update('create table user (id int primary key, name text, email text, password text, last_modified real)')
+    update('create table user (id int primary key, name text, email text, passwd text, last_modified real)')        #error: password  ---> passwd
     import doctest
     doctest.testmod()

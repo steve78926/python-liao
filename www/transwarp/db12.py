@@ -14,6 +14,31 @@ import time, uuid, functools, threading, logging
 class Dict(dict):
     '''
     simple dict but support access as x.y style.
+    >>> d1 = Dict()
+    >>> d1['x'] = 100
+    >>> d1.x
+    100
+    >>> d1.y = 200
+    >>> d1['y']
+    200
+    >>> d2 = Dict(a=1, b=2, c='3')
+    >>> d2.c
+    '3'
+    >>> d2['empty']
+    Traceback (most recent call last):
+        ...
+    KeyError: 'empty'
+    >>> d2.empty
+    Traceback (most recent call last):
+        ...
+    AttributeError: 'Dict' object has no attribute 'empty'
+    >>> d3 = Dict(('a', 'b', 'c'), (1, 2, 3))
+    >>> d3.a
+    1
+    >>> d3.b
+    2
+    >>> d3.c
+    3
     '''
     def __init__(self, names=(), values=(), **kw):
         super(Dict, self).__init__(**kw)
@@ -230,14 +255,45 @@ def transaction():
 
     with transaction():
         pass
-
+    >>> def update_profile(id, name, rollback):
+    ...     u = dict(id=id, name=name, email='%s@test.org' % name, passwd=name, last_modified=time.time())
+    ...     insert('user', **u)
+    ...     r = update('update user set passwd=? where id=?', name.upper(), id)
+    ...     if rollback:
+    ...         raise StandardError('will cause rollback...')
+    >>> with transaction():
+    ...     update_profile(900301, 'Python', False)
+    >>> select_one('select * from user where id=?', 900301).name
+    u'Python'
+    >>> with transaction():
+    ...     update_profile(900302, 'Ruby', True)
+    Traceback (most recent call last):
+      ...
+    StandardError: will cause rollback...
+    >>> select('select * from user where id=?', 900302)
+    []
     '''
     return _TransactionCtx()
 
 def with_transaction(func):
     '''
     A decorator that makes function around transaction.
-
+    >>> @with_transaction
+    ... def update_profile(id, name, rollback):
+    ...     u = dict(id=id, name=name, email='%s@test.org' % name, passwd=name, last_modified=time.time())
+    ...     insert('user', **u)
+    ...     r = update('update user set passwd=? where id=?', name.upper(), id)
+    ...     if rollback:
+    ...         raise StandardError('will cause rollback...')
+    >>> update_profile(8080, 'Julia', False)
+    >>> select_one('select * from user where id=?', 8080).passwd
+    u'JULIA'
+    >>> update_profile(9090, 'Robert', True)
+    Traceback (most recent call last):
+      ...
+    StandardError: will cause rollback...
+    >>> select('select * from user where id=?', 9090)
+    []
     '''
     @functools.wraps(func)
     def _wrapper(*args, **kw):
@@ -274,7 +330,19 @@ def select_one(sql, *args):
     Execute select SQL and expected one result.
     If no result found, return None.
     If multiple results found, the first one returned.
-
+    >>> u1 = dict(id=100, name='Alice', email='alice@test.org', passwd='ABC-12345', last_modified=time.time())
+    >>> u2 = dict(id=101, name='Sarah', email='sarah@test.org', passwd='ABC-12345', last_modified=time.time())
+    >>> insert('user', **u1)
+    1
+    >>> insert('user', **u2)
+    1
+    >>> u = select_one('select * from user where id=?', 100)
+    >>> u.name
+    u'Alice'
+    >>> select_one('select * from user where email=?', 'abc@email.com')
+    >>> u2 = select_one('select * from user where passwd=? order by email', 'ABC-12345')
+    >>> u2.name
+    u'Alice'
     '''
     return _select(sql, True, *args)
 

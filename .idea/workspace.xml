@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18d56fb0-3eb1-40ce-bb88-66e33b98c2ff" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/transwarp/db.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/transwarp/db11.py" afterPath="$PROJECT_DIR$/www/transwarp/db11.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/transwarp/db12.py" afterPath="$PROJECT_DIR$/www/transwarp/db12.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/transwarp/db_py_error.txt" afterPath="$PROJECT_DIR$/www/transwarp/db_py_error.txt" />
     </list>
     <ignored path="python-liao.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,8 +33,8 @@
     <SUITE FILE_PATH="coverage/python-liao$Doctests_in_db11__2_.coverage" NAME="Doctests in db11 (2) Coverage Results" MODIFIED="1482743163843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www/transwarp" />
     <SUITE FILE_PATH="coverage/python-liao$Doctests_in_db12__2_.coverage" NAME="Doctests in db12 (2) Coverage Results" MODIFIED="1483232025313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www/transwarp" />
     <SUITE FILE_PATH="coverage/python-liao$Doctests_in_db__5_.coverage" NAME="Doctests in db (5) Coverage Results" MODIFIED="1482739478600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www/transwarp" />
-    <SUITE FILE_PATH="coverage/python-liao$db.coverage" NAME="db Coverage Results" MODIFIED="1483767203452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www/transwarp" />
-    <SUITE FILE_PATH="coverage/python-liao$db12.coverage" NAME="db12 Coverage Results" MODIFIED="1483768797042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www/transwarp" />
+    <SUITE FILE_PATH="coverage/python-liao$db.coverage" NAME="db Coverage Results" MODIFIED="1483872625966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www/transwarp" />
+    <SUITE FILE_PATH="coverage/python-liao$db12.coverage" NAME="db12 Coverage Results" MODIFIED="1483872095409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www/transwarp" />
     <SUITE FILE_PATH="coverage/python-liao$Doctest_mysqltest.coverage" NAME="Doctest mysqltest Coverage Results" MODIFIED="1482479819805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www/transwarp" />
     <SUITE FILE_PATH="coverage/python-liao$Doctests_in_db.coverage" NAME="Doctests in db Coverage Results" MODIFIED="1483176859299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www/transwarp" />
     <SUITE FILE_PATH="coverage/python-liao$mysqltests.coverage" NAME="mysqltests Coverage Results" MODIFIED="1482724338984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www/transwarp" />
@@ -49,7 +48,7 @@
     <SUITE FILE_PATH="coverage/python-liao$Doctest_mysqltest__1_.coverage" NAME="Doctest mysqltest (1) Coverage Results" MODIFIED="1482480733009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www/transwarp" />
     <SUITE FILE_PATH="coverage/python-liao$Doctests_in_db12__3_.coverage" NAME="Doctests in db12 (3) Coverage Results" MODIFIED="1483232206643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www/transwarp" />
     <SUITE FILE_PATH="coverage/python-liao$Doctests_in_Dict.coverage" NAME="Doctests in Dict Coverage Results" MODIFIED="1483179162591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www/transwarp" />
-    <SUITE FILE_PATH="coverage/python-liao$db11.coverage" NAME="db11 Coverage Results" MODIFIED="1483259208396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www/transwarp" />
+    <SUITE FILE_PATH="coverage/python-liao$db11.coverage" NAME="db11 Coverage Results" MODIFIED="1483872521249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www/transwarp" />
     <SUITE FILE_PATH="coverage/python-liao$Doctest_mysqltests.coverage" NAME="Doctest mysqltests Coverage Results" MODIFIED="1483175115256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www/transwarp" />
     <SUITE FILE_PATH="coverage/python-liao$Doctests_in_db__1_.coverage" NAME="Doctests in db (1) Coverage Results" MODIFIED="1483204998217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www/transwarp" />
     <SUITE FILE_PATH="coverage/python-liao$Doctests_in_db12__1_.coverage" NAME="Doctests in db12 (1) Coverage Results" MODIFIED="1483232021552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www/transwarp" />
@@ -77,15 +76,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db12.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="db12.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/transwarp/db12.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3083004">
-              <caret line="297" column="4" selection-start-line="297" selection-start-column="4" selection-end-line="297" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="439" column="0" selection-start-line="439" selection-start-column="0" selection-end-line="439" selection-end-column="0" />
               <folding>
-                <marker date="1483768902977" expanded="true" signature="10283:10316" placeholder="insert into `missing_value`... " />
-                <marker date="1483768902977" expanded="true" signature="11296:11321" placeholder="drop table i... " />
-                <marker date="1483768902977" expanded="true" signature="11336:11430" placeholder="create table... user" />
+                <marker date="1483864280100" expanded="true" signature="6710:7016" placeholder="..." />
+                <marker date="1483864280100" expanded="true" signature="7610:7916" placeholder="..." />
+                <marker date="1483864280100" expanded="true" signature="12878:12911" placeholder="insert into `missing_value`... " />
+                <marker date="1483864280100" expanded="true" signature="13891:13916" placeholder="drop table i... " />
+                <marker date="1483864280100" expanded="true" signature="13931:14025" placeholder="create table... user" />
               </folding>
             </state>
           </provider>
@@ -95,27 +96,28 @@
         <entry file="file://$PROJECT_DIR$/www/transwarp/db.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="368" column="4" selection-start-line="368" selection-start-column="4" selection-end-line="368" selection-end-column="4" />
+              <caret line="271" column="9" selection-start-line="258" selection-start-column="4" selection-end-line="274" selection-end-column="6" />
               <folding>
-                <marker date="1483757891105" expanded="true" signature="6673:6979" placeholder="..." />
-                <marker date="1483757891105" expanded="true" signature="7573:7879" placeholder="..." />
-                <marker date="1483757891105" expanded="true" signature="12768:12801" placeholder="insert into `missing_value`... " />
-                <marker date="1483757891105" expanded="true" signature="13778:13803" placeholder="drop table i... " />
-                <marker date="1483757891105" expanded="true" signature="13818:13912" placeholder="create table... user" />
+                <marker date="1483869309073" expanded="true" signature="6673:6979" placeholder="..." />
+                <marker date="1483869309073" expanded="true" signature="7573:7879" placeholder="..." />
+                <marker date="1483869309073" expanded="true" signature="12768:12801" placeholder="insert into `missing_value`... " />
+                <marker date="1483869309073" expanded="true" signature="13778:13803" placeholder="drop table i... " />
+                <marker date="1483869309073" expanded="true" signature="13818:13912" placeholder="create table... user" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db11.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="db11.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/transwarp/db11.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="162" column="26" selection-start-line="162" selection-start-column="26" selection-end-line="162" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.8800959">
+              <caret line="271" column="6" selection-start-line="271" selection-start-column="6" selection-end-line="271" selection-end-column="6" />
               <folding>
-                <marker date="1483234847166" expanded="true" signature="7241:7547" placeholder="..." />
-                <marker date="1483234847166" expanded="true" signature="13448:13481" placeholder="insert into `missing_value`... " />
-                <marker date="1483234847166" expanded="true" signature="14501:14597" placeholder="create table... user" />
+                <marker date="1483872655294" expanded="true" signature="7472:7778" placeholder="..." />
+                <marker date="1483872655294" expanded="true" signature="8373:8679" placeholder="..." />
+                <marker date="1483872655294" expanded="true" signature="13810:13843" placeholder="insert into `missing_value`... " />
+                <marker date="1483872655294" expanded="true" signature="14901:14995" placeholder="create table... user" />
               </folding>
             </state>
           </provider>
@@ -145,10 +147,10 @@
         <option value="$PROJECT_DIR$/www/transwarp/db_py_error.log" />
         <option value="$PROJECT_DIR$/www/transwarp/dbconfig.py" />
         <option value="$PROJECT_DIR$/www/transwarp/testdebug.py" />
-        <option value="$PROJECT_DIR$/www/transwarp/db11.py" />
-        <option value="$PROJECT_DIR$/www/transwarp/db.py" />
         <option value="$PROJECT_DIR$/www/transwarp/db_py_error.txt" />
         <option value="$PROJECT_DIR$/www/transwarp/db12.py" />
+        <option value="$PROJECT_DIR$/www/transwarp/db.py" />
+        <option value="$PROJECT_DIR$/www/transwarp/db11.py" />
       </list>
     </option>
   </component>
@@ -160,8 +162,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
-    <option name="width" value="1298" />
-    <option name="height" value="738" />
+    <option name="width" value="1938" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -194,7 +196,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -234,6 +235,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -245,7 +247,7 @@
       <recent name="D:\python-liao\python-liao\www\transwarp" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.db12">
+  <component name="RunManager" selected="Python.db">
     <configuration default="false" name="db12" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -542,10 +544,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.db12" />
-        <item index="1" class="java.lang.String" itemvalue="Python.db" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Doctest insert" />
-        <item index="3" class="java.lang.String" itemvalue="Python.db11" />
+        <item index="0" class="java.lang.String" itemvalue="Python.db" />
+        <item index="1" class="java.lang.String" itemvalue="Python.db11" />
+        <item index="2" class="java.lang.String" itemvalue="Python.db12" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Doctest insert" />
         <item index="4" class="java.lang.String" itemvalue="Python tests.Doctest update (2)" />
       </list>
     </recent_temporary>
@@ -596,19 +598,19 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1298" height="738" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3050571" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30493033" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32545453" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4790528" sideWeight="0.49785867" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32482597" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47851336" sideWeight="0.49785867" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6146893" sideWeight="0.50214136" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3715847" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52363634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48087433" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6148492" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47911832" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -643,24 +645,14 @@
           <line>91</line>
         </line-breakpoint>
         <line-breakpoint type="python-line">
-          <url>file://$PROJECT_DIR$/www/transwarp/db11.py</url>
-          <line>454</line>
-          <option name="timeStamp" value="102" />
-        </line-breakpoint>
-        <line-breakpoint type="python-line">
-          <url>file://$PROJECT_DIR$/www/transwarp/db11.py</url>
-          <line>403</line>
-          <option name="timeStamp" value="103" />
-        </line-breakpoint>
-        <line-breakpoint type="python-line">
-          <url>file://$PROJECT_DIR$/www/transwarp/db11.py</url>
-          <line>459</line>
-          <option name="timeStamp" value="104" />
-        </line-breakpoint>
-        <line-breakpoint type="python-line">
           <url>file://$PROJECT_DIR$/www/transwarp/db12.py</url>
-          <line>62</line>
+          <line>87</line>
           <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint type="python-line">
+          <url>file://$PROJECT_DIR$/www/transwarp/db11.py</url>
+          <line>198</line>
+          <option name="timeStamp" value="141" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -673,7 +665,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="130" />
+      <option name="time" value="145" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="tests">
@@ -701,6 +693,42 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/www/transwarp/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="374" column="17" selection-start-line="374" selection-start-column="17" selection-end-line="374" selection-end-column="17" />
+          <folding>
+            <marker date="1483869309073" expanded="true" signature="6673:6979" placeholder="..." />
+            <marker date="1483869309073" expanded="true" signature="7573:7879" placeholder="..." />
+            <marker date="1483869309073" expanded="true" signature="12768:12801" placeholder="insert into `missing_value`... " />
+            <marker date="1483869309073" expanded="true" signature="13778:13803" placeholder="drop table i... " />
+            <marker date="1483869309073" expanded="true" signature="13818:13912" placeholder="create table... user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/transwarp/db_py_error.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/transwarp/db12.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="302" column="46" selection-start-line="302" selection-start-column="46" selection-end-line="302" selection-end-column="46" />
+          <folding>
+            <marker date="1483864280100" expanded="true" signature="6710:7016" placeholder="..." />
+            <marker date="1483864280100" expanded="true" signature="7610:7916" placeholder="..." />
+            <marker date="1483864280100" expanded="true" signature="12878:12911" placeholder="insert into `missing_value`... " />
+            <marker date="1483864280100" expanded="true" signature="13891:13916" placeholder="drop table i... " />
+            <marker date="1483864280100" expanded="true" signature="13931:14025" placeholder="create table... user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/transwarp/db_py_error.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -714,9 +742,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1483768902977" expanded="true" signature="10283:10316" placeholder="insert into `missing_value`... " />
-            <marker date="1483768902977" expanded="true" signature="11296:11321" placeholder="drop table i... " />
-            <marker date="1483768902977" expanded="true" signature="11336:11430" placeholder="create table... user" />
+            <marker date="1483864280100" expanded="true" signature="6710:7016" placeholder="..." />
+            <marker date="1483864280100" expanded="true" signature="7610:7916" placeholder="..." />
+            <marker date="1483864280100" expanded="true" signature="12878:12911" placeholder="insert into `missing_value`... " />
+            <marker date="1483864280100" expanded="true" signature="13891:13916" placeholder="drop table i... " />
+            <marker date="1483864280100" expanded="true" signature="13931:14025" placeholder="create table... user" />
           </folding>
         </state>
       </provider>
@@ -726,9 +756,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="162" column="26" selection-start-line="162" selection-start-column="26" selection-end-line="162" selection-end-column="26" />
           <folding>
-            <marker date="1483234847166" expanded="true" signature="7241:7547" placeholder="..." />
-            <marker date="1483234847166" expanded="true" signature="13448:13481" placeholder="insert into `missing_value`... " />
-            <marker date="1483234847166" expanded="true" signature="14501:14597" placeholder="create table... user" />
+            <marker date="1483872655294" expanded="true" signature="7472:7778" placeholder="..." />
+            <marker date="1483872655294" expanded="true" signature="8373:8679" placeholder="..." />
+            <marker date="1483872655294" expanded="true" signature="13810:13843" placeholder="insert into `missing_value`... " />
+            <marker date="1483872655294" expanded="true" signature="14901:14995" placeholder="create table... user" />
           </folding>
         </state>
       </provider>
@@ -746,9 +777,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1483768902977" expanded="true" signature="10283:10316" placeholder="insert into `missing_value`... " />
-            <marker date="1483768902977" expanded="true" signature="11296:11321" placeholder="drop table i... " />
-            <marker date="1483768902977" expanded="true" signature="11336:11430" placeholder="create table... user" />
+            <marker date="1483864280100" expanded="true" signature="6710:7016" placeholder="..." />
+            <marker date="1483864280100" expanded="true" signature="7610:7916" placeholder="..." />
+            <marker date="1483864280100" expanded="true" signature="12878:12911" placeholder="insert into `missing_value`... " />
+            <marker date="1483864280100" expanded="true" signature="13891:13916" placeholder="drop table i... " />
+            <marker date="1483864280100" expanded="true" signature="13931:14025" placeholder="create table... user" />
           </folding>
         </state>
       </provider>
@@ -758,9 +791,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="162" column="26" selection-start-line="162" selection-start-column="26" selection-end-line="162" selection-end-column="26" />
           <folding>
-            <marker date="1483234847166" expanded="true" signature="7241:7547" placeholder="..." />
-            <marker date="1483234847166" expanded="true" signature="13448:13481" placeholder="insert into `missing_value`... " />
-            <marker date="1483234847166" expanded="true" signature="14501:14597" placeholder="create table... user" />
+            <marker date="1483872655294" expanded="true" signature="7472:7778" placeholder="..." />
+            <marker date="1483872655294" expanded="true" signature="8373:8679" placeholder="..." />
+            <marker date="1483872655294" expanded="true" signature="13810:13843" placeholder="insert into `missing_value`... " />
+            <marker date="1483872655294" expanded="true" signature="14901:14995" placeholder="create table... user" />
           </folding>
         </state>
       </provider>
@@ -778,9 +812,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <marker date="1483768902977" expanded="true" signature="10283:10316" placeholder="insert into `missing_value`... " />
-            <marker date="1483768902977" expanded="true" signature="11296:11321" placeholder="drop table i... " />
-            <marker date="1483768902977" expanded="true" signature="11336:11430" placeholder="create table... user" />
+            <marker date="1483864280100" expanded="true" signature="6710:7016" placeholder="..." />
+            <marker date="1483864280100" expanded="true" signature="7610:7916" placeholder="..." />
+            <marker date="1483864280100" expanded="true" signature="12878:12911" placeholder="insert into `missing_value`... " />
+            <marker date="1483864280100" expanded="true" signature="13891:13916" placeholder="drop table i... " />
+            <marker date="1483864280100" expanded="true" signature="13931:14025" placeholder="create table... user" />
           </folding>
         </state>
       </provider>
@@ -790,9 +826,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="230" column="0" selection-start-line="230" selection-start-column="0" selection-end-line="230" selection-end-column="0" />
           <folding>
-            <marker date="1483234847166" expanded="true" signature="7241:7547" placeholder="..." />
-            <marker date="1483234847166" expanded="true" signature="13448:13481" placeholder="insert into `missing_value`... " />
-            <marker date="1483234847166" expanded="true" signature="14501:14597" placeholder="create table... user" />
+            <marker date="1483872655294" expanded="true" signature="7472:7778" placeholder="..." />
+            <marker date="1483872655294" expanded="true" signature="8373:8679" placeholder="..." />
+            <marker date="1483872655294" expanded="true" signature="13810:13843" placeholder="insert into `missing_value`... " />
+            <marker date="1483872655294" expanded="true" signature="14901:14995" placeholder="create table... user" />
           </folding>
         </state>
       </provider>
@@ -817,9 +854,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1483768902977" expanded="true" signature="10283:10316" placeholder="insert into `missing_value`... " />
-            <marker date="1483768902977" expanded="true" signature="11296:11321" placeholder="drop table i... " />
-            <marker date="1483768902977" expanded="true" signature="11336:11430" placeholder="create table... user" />
+            <marker date="1483864280100" expanded="true" signature="6710:7016" placeholder="..." />
+            <marker date="1483864280100" expanded="true" signature="7610:7916" placeholder="..." />
+            <marker date="1483864280100" expanded="true" signature="12878:12911" placeholder="insert into `missing_value`... " />
+            <marker date="1483864280100" expanded="true" signature="13891:13916" placeholder="drop table i... " />
+            <marker date="1483864280100" expanded="true" signature="13931:14025" placeholder="create table... user" />
           </folding>
         </state>
       </provider>
@@ -844,9 +883,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1483768902977" expanded="true" signature="10283:10316" placeholder="insert into `missing_value`... " />
-            <marker date="1483768902977" expanded="true" signature="11296:11321" placeholder="drop table i... " />
-            <marker date="1483768902977" expanded="true" signature="11336:11430" placeholder="create table... user" />
+            <marker date="1483864280100" expanded="true" signature="6710:7016" placeholder="..." />
+            <marker date="1483864280100" expanded="true" signature="7610:7916" placeholder="..." />
+            <marker date="1483864280100" expanded="true" signature="12878:12911" placeholder="insert into `missing_value`... " />
+            <marker date="1483864280100" expanded="true" signature="13891:13916" placeholder="drop table i... " />
+            <marker date="1483864280100" expanded="true" signature="13931:14025" placeholder="create table... user" />
           </folding>
         </state>
       </provider>
@@ -863,9 +904,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1483234847166" expanded="true" signature="7241:7547" placeholder="..." />
-            <marker date="1483234847166" expanded="true" signature="13448:13481" placeholder="insert into `missing_value`... " />
-            <marker date="1483234847166" expanded="true" signature="14501:14597" placeholder="create table... user" />
+            <marker date="1483872655294" expanded="true" signature="7472:7778" placeholder="..." />
+            <marker date="1483872655294" expanded="true" signature="8373:8679" placeholder="..." />
+            <marker date="1483872655294" expanded="true" signature="13810:13843" placeholder="insert into `missing_value`... " />
+            <marker date="1483872655294" expanded="true" signature="14901:14995" placeholder="create table... user" />
           </folding>
         </state>
       </provider>
@@ -882,9 +924,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1483234847166" expanded="true" signature="7241:7547" placeholder="..." />
-            <marker date="1483234847166" expanded="true" signature="13448:13481" placeholder="insert into `missing_value`... " />
-            <marker date="1483234847166" expanded="true" signature="14501:14597" placeholder="create table... user" />
+            <marker date="1483872655294" expanded="true" signature="7472:7778" placeholder="..." />
+            <marker date="1483872655294" expanded="true" signature="8373:8679" placeholder="..." />
+            <marker date="1483872655294" expanded="true" signature="13810:13843" placeholder="insert into `missing_value`... " />
+            <marker date="1483872655294" expanded="true" signature="14901:14995" placeholder="create table... user" />
           </folding>
         </state>
       </provider>
@@ -1064,19 +1107,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33070865">
           <caret line="1910" column="0" selection-start-line="1910" selection-start-column="0" selection-end-line="1910" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/transwarp/db11.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="162" column="26" selection-start-line="162" selection-start-column="26" selection-end-line="162" selection-end-column="26" />
-          <folding>
-            <marker date="1483234847166" expanded="true" signature="7241:7547" placeholder="..." />
-            <marker date="1483234847166" expanded="true" signature="13448:13481" placeholder="insert into `missing_value`... " />
-            <marker date="1483234847166" expanded="true" signature="14501:14597" placeholder="create table... user" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1084,21 +1114,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/transwarp/db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="368" column="4" selection-start-line="368" selection-start-column="4" selection-end-line="368" selection-end-column="4" />
-          <folding>
-            <marker date="1483757891105" expanded="true" signature="6673:6979" placeholder="..." />
-            <marker date="1483757891105" expanded="true" signature="7573:7879" placeholder="..." />
-            <marker date="1483757891105" expanded="true" signature="12768:12801" placeholder="insert into `missing_value`... " />
-            <marker date="1483757891105" expanded="true" signature="13778:13803" placeholder="drop table i... " />
-            <marker date="1483757891105" expanded="true" signature="13818:13912" placeholder="create table... user" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1112,12 +1127,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/transwarp/db12.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3083004">
-          <caret line="297" column="4" selection-start-line="297" selection-start-column="4" selection-end-line="297" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="439" column="0" selection-start-line="439" selection-start-column="0" selection-end-line="439" selection-end-column="0" />
           <folding>
-            <marker date="1483768902977" expanded="true" signature="10283:10316" placeholder="insert into `missing_value`... " />
-            <marker date="1483768902977" expanded="true" signature="11296:11321" placeholder="drop table i... " />
-            <marker date="1483768902977" expanded="true" signature="11336:11430" placeholder="create table... user" />
+            <marker date="1483864280100" expanded="true" signature="6710:7016" placeholder="..." />
+            <marker date="1483864280100" expanded="true" signature="7610:7916" placeholder="..." />
+            <marker date="1483864280100" expanded="true" signature="12878:12911" placeholder="insert into `missing_value`... " />
+            <marker date="1483864280100" expanded="true" signature="13891:13916" placeholder="drop table i... " />
+            <marker date="1483864280100" expanded="true" signature="13931:14025" placeholder="create table... user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/transwarp/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="271" column="9" selection-start-line="258" selection-start-column="4" selection-end-line="274" selection-end-column="6" />
+          <folding>
+            <marker date="1483869309073" expanded="true" signature="6673:6979" placeholder="..." />
+            <marker date="1483869309073" expanded="true" signature="7573:7879" placeholder="..." />
+            <marker date="1483869309073" expanded="true" signature="12768:12801" placeholder="insert into `missing_value`... " />
+            <marker date="1483869309073" expanded="true" signature="13778:13803" placeholder="drop table i... " />
+            <marker date="1483869309073" expanded="true" signature="13818:13912" placeholder="create table... user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/transwarp/db11.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8800959">
+          <caret line="271" column="6" selection-start-line="271" selection-start-column="6" selection-end-line="271" selection-end-column="6" />
+          <folding>
+            <marker date="1483872655294" expanded="true" signature="7472:7778" placeholder="..." />
+            <marker date="1483872655294" expanded="true" signature="8373:8679" placeholder="..." />
+            <marker date="1483872655294" expanded="true" signature="13810:13843" placeholder="insert into `missing_value`... " />
+            <marker date="1483872655294" expanded="true" signature="14901:14995" placeholder="create table... user" />
           </folding>
         </state>
       </provider>
