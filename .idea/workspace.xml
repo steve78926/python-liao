@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18d56fb0-3eb1-40ce-bb88-66e33b98c2ff" name="默认的" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/transwarp/orm.py" afterPath="$PROJECT_DIR$/www/transwarp/orm.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/transwarp/testdebug.py" afterPath="$PROJECT_DIR$/www/transwarp/testdebug.py" />
     </list>
     <ignored path="python-liao.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,7 +23,7 @@
     <SUITE FILE_PATH="coverage/python-liao$Doctest_select.coverage" NAME="Doctest select Coverage Results" MODIFIED="1482798763870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www/transwarp" />
     <SUITE FILE_PATH="coverage/python-liao$Doctests_in_db11.coverage" NAME="Doctests in db11 Coverage Results" MODIFIED="1483205022941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www/transwarp" />
     <SUITE FILE_PATH="coverage/python-liao$Doctests_in_db11__3_.coverage" NAME="Doctests in db11 (3) Coverage Results" MODIFIED="1482743167475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www/transwarp" />
-    <SUITE FILE_PATH="coverage/python-liao$Doctests_in_Model__1_.coverage" NAME="Doctests in Model (1) Coverage Results" MODIFIED="1483882771638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www/transwarp" />
+    <SUITE FILE_PATH="coverage/python-liao$Doctests_in_Model__1_.coverage" NAME="Doctests in Model (1) Coverage Results" MODIFIED="1483970413612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www/transwarp" />
     <SUITE FILE_PATH="coverage/python-liao$Doctests_in_mysqltest.coverage" NAME="Doctests in mysqltests Coverage Results" MODIFIED="1482480723528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www/transwarp" />
     <SUITE FILE_PATH="coverage/python-liao$Doctests_in_db__3_.coverage" NAME="Doctests in db (3) Coverage Results" MODIFIED="1482743131813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www/transwarp" />
     <SUITE FILE_PATH="coverage/python-liao$Doctest_update.coverage" NAME="Doctest update Coverage Results" MODIFIED="1483233327405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www/transwarp" />
@@ -42,7 +42,7 @@
     <SUITE FILE_PATH="coverage/python-liao$mysqltests.coverage" NAME="mysqltests Coverage Results" MODIFIED="1482724338984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www/transwarp" />
     <SUITE FILE_PATH="coverage/python-liao$mysqltest1.coverage" NAME="mysqltest1 Coverage Results" MODIFIED="1482480665291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www/transwarp" />
     <SUITE FILE_PATH="coverage/python-liao$Doctests_in_Dict__1_.coverage" NAME="Doctests in Dict (1) Coverage Results" MODIFIED="1483205210745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www/transwarp" />
-    <SUITE FILE_PATH="coverage/python-liao$testdebug.coverage" NAME="testdebug Coverage Results" MODIFIED="1483233354648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www/transwarp" />
+    <SUITE FILE_PATH="coverage/python-liao$testdebug.coverage" NAME="testdebug Coverage Results" MODIFIED="1483973020088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www/transwarp" />
     <SUITE FILE_PATH="coverage/python-liao$Doctests_in_db11__4_.coverage" NAME="Doctests in db11 (4) Coverage Results" MODIFIED="1482743245040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www/transwarp" />
     <SUITE FILE_PATH="coverage/python-liao$Doctest_update__1_.coverage" NAME="Doctest update (1) Coverage Results" MODIFIED="1483232455529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www/transwarp" />
     <SUITE FILE_PATH="coverage/python-liao$Doctests_in_db__4_.coverage" NAME="Doctests in db (4) Coverage Results" MODIFIED="1482739472150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/www/transwarp" />
@@ -128,26 +128,46 @@
       <file leaf-file-name="orm.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/transwarp/orm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5464481">
-              <caret line="175" column="38" selection-start-line="175" selection-start-column="38" selection-end-line="175" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.37451738">
+              <caret line="130" column="75" selection-start-line="130" selection-start-column="75" selection-end-line="130" selection-end-column="75" />
               <folding>
                 <element signature="e#156#176#0" expanded="true" />
-                <element signature="e#8420#8501#1" expanded="false" />
-                <element signature="e#8670#8758#1" expanded="false" />
-                <marker date="1483887093446" expanded="true" signature="2798:2817" placeholder="create table... missing_value" />
-                <marker date="1483887093446" expanded="true" signature="5769:6082" placeholder="..." />
-                <marker date="1483887093446" expanded="false" signature="6033:6082" placeholder="..." />
-                <marker date="1483887093446" expanded="true" signature="7460:7487" placeholder="select * fro... missing_value" />
-                <marker date="1483887093446" expanded="true" signature="7834:7851" placeholder="select * fro... missing_value" />
-                <marker date="1483887093446" expanded="true" signature="8056:8074" placeholder="select * fro... missing_value" />
-                <marker date="1483887093446" expanded="true" signature="8277:8296" placeholder="select * fro... missing_value" />
-                <marker date="1483887093446" expanded="true" signature="8532:8560" placeholder="select count... missing_value" />
-                <marker date="1483887093446" expanded="true" signature="8789:8818" placeholder="select count... missing_value" />
-                <marker date="1483887093446" expanded="false" signature="9411:9440" placeholder="update `miss... " />
-                <marker date="1483887093446" expanded="false" signature="9670:9699" placeholder="delete from " />
-                <marker date="1483887093446" expanded="true" signature="10270:10295" placeholder="drop table i... " />
-                <marker date="1483887093446" expanded="true" signature="10313:10407" placeholder="create table... user" />
+                <element signature="e#8757#8838#1" expanded="false" />
+                <element signature="e#9007#9095#1" expanded="false" />
+                <marker date="1483973688127" expanded="true" signature="2894:2913" placeholder="create table... missing_value" />
+                <marker date="1483973688127" expanded="true" signature="6106:6419" placeholder="..." />
+                <marker date="1483973688127" expanded="false" signature="6370:6419" placeholder="..." />
+                <marker date="1483973688127" expanded="true" signature="7797:7824" placeholder="select * fro... missing_value" />
+                <marker date="1483973688127" expanded="true" signature="8171:8188" placeholder="select * fro... missing_value" />
+                <marker date="1483973688127" expanded="true" signature="8393:8411" placeholder="select * fro... missing_value" />
+                <marker date="1483973688127" expanded="true" signature="8614:8633" placeholder="select * fro... missing_value" />
+                <marker date="1483973688127" expanded="true" signature="8869:8897" placeholder="select count... missing_value" />
+                <marker date="1483973688127" expanded="true" signature="9126:9155" placeholder="select count... missing_value" />
+                <marker date="1483973688127" expanded="false" signature="9748:9777" placeholder="update `miss... " />
+                <marker date="1483973688127" expanded="false" signature="10007:10036" placeholder="delete from " />
+                <marker date="1483973688127" expanded="true" signature="10607:10632" placeholder="drop table i... " />
+                <marker date="1483973688127" expanded="true" signature="10650:10744" placeholder="create table... user" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testdebug.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/transwarp/testdebug.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.75757575">
+              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -174,13 +194,13 @@
         <option value="$PROJECT_DIR$/www/transwarp/mysqltests.py" />
         <option value="$PROJECT_DIR$/www/transwarp/db_py_error.log" />
         <option value="$PROJECT_DIR$/www/transwarp/dbconfig.py" />
-        <option value="$PROJECT_DIR$/www/transwarp/testdebug.py" />
         <option value="$PROJECT_DIR$/www/transwarp/db_py_error.txt" />
         <option value="$PROJECT_DIR$/www/transwarp/db12.py" />
         <option value="$PROJECT_DIR$/www/transwarp/db.py" />
         <option value="$PROJECT_DIR$/www/transwarp/db11.py" />
-        <option value="$PROJECT_DIR$/www/transwarp/orm.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/www/transwarp/testdebug.py" />
+        <option value="$PROJECT_DIR$/www/transwarp/orm.py" />
       </list>
     </option>
   </component>
@@ -277,7 +297,7 @@
       <recent name="D:\python-liao\python-liao\www\transwarp" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Doctests in orm">
+  <component name="RunManager" selected="Python.testdebug">
     <configuration default="false" name="db12" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -310,24 +330,6 @@
       <module name="python-liao" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/www/transwarp/db11.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="db" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/www/transwarp" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python-liao" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/www/transwarp/db.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -370,6 +372,24 @@
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="testdebug" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/www/transwarp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-liao" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/www/transwarp/testdebug.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -568,17 +588,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.db12" />
       <item index="1" class="java.lang.String" itemvalue="Python.db11" />
-      <item index="2" class="java.lang.String" itemvalue="Python.db" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Doctests in Model (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Doctests in orm" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Doctests in Model (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Doctests in orm" />
+      <item index="4" class="java.lang.String" itemvalue="Python.testdebug" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Doctests in orm" />
+        <item index="0" class="java.lang.String" itemvalue="Python.testdebug" />
         <item index="1" class="java.lang.String" itemvalue="Python tests.Doctests in Model (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.db11" />
-        <item index="3" class="java.lang.String" itemvalue="Python.db12" />
-        <item index="4" class="java.lang.String" itemvalue="Python.db" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Doctests in orm" />
+        <item index="3" class="java.lang.String" itemvalue="Python.db11" />
+        <item index="4" class="java.lang.String" itemvalue="Python.db12" />
       </list>
     </recent_temporary>
   </component>
@@ -596,9 +616,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Doctest_insert - 2017.01.07 at 12h 16m 24s.xml">
-      <configuration name="Doctest insert" configurationId="tests" />
-    </history-entry>
     <history-entry file="Doctest_update - 2017.01.01 at 09h 14m 45s.xml">
       <configuration name="Doctest update" configurationId="tests" />
     </history-entry>
@@ -623,6 +640,9 @@
     <history-entry file="Doctests_in_Model_(1) - 2017.01.08 at 21h 31m 43s.xml">
       <configuration name="Doctests in Model (1)" configurationId="tests" />
     </history-entry>
+    <history-entry file="Doctests_in_Model_(1) - 2017.01.09 at 22h 00m 15s.xml">
+      <configuration name="Doctests in Model (1)" configurationId="tests" />
+    </history-entry>
     <history-entry file="Doctests_in_orm - 2017.01.08 at 21h 40m 52s.xml">
       <configuration name="Doctests in orm" configurationId="tests" />
     </history-entry>
@@ -631,23 +651,23 @@
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30921757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30921757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32520324" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32520324" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47851336" sideWeight="0.49785867" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6146893" sideWeight="0.50214136" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37049943" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19605568" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19512194" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3205575" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47851336" sideWeight="0.49785867" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47851336" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1092,13 +1112,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/transwarp/testdebug.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06097561">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm50/system/python_stubs/-762174762/__builtin__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
@@ -1111,6 +1124,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33070865">
           <caret line="1910" column="0" selection-start-line="1910" selection-start-column="0" selection-end-line="1910" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1172,33 +1186,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.048449613">
+        <state vertical-scroll-proportion="-0.75757575">
           <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/transwarp/testdebug.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/transwarp/orm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5464481">
-          <caret line="175" column="38" selection-start-line="175" selection-start-column="38" selection-end-line="175" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.37451738">
+          <caret line="130" column="75" selection-start-line="130" selection-start-column="75" selection-end-line="130" selection-end-column="75" />
           <folding>
             <element signature="e#156#176#0" expanded="true" />
-            <element signature="e#8420#8501#1" expanded="false" />
-            <element signature="e#8670#8758#1" expanded="false" />
-            <marker date="1483887093446" expanded="true" signature="2798:2817" placeholder="create table... missing_value" />
-            <marker date="1483887093446" expanded="true" signature="5769:6082" placeholder="..." />
-            <marker date="1483887093446" expanded="false" signature="6033:6082" placeholder="..." />
-            <marker date="1483887093446" expanded="true" signature="7460:7487" placeholder="select * fro... missing_value" />
-            <marker date="1483887093446" expanded="true" signature="7834:7851" placeholder="select * fro... missing_value" />
-            <marker date="1483887093446" expanded="true" signature="8056:8074" placeholder="select * fro... missing_value" />
-            <marker date="1483887093446" expanded="true" signature="8277:8296" placeholder="select * fro... missing_value" />
-            <marker date="1483887093446" expanded="true" signature="8532:8560" placeholder="select count... missing_value" />
-            <marker date="1483887093446" expanded="true" signature="8789:8818" placeholder="select count... missing_value" />
-            <marker date="1483887093446" expanded="false" signature="9411:9440" placeholder="update `miss... " />
-            <marker date="1483887093446" expanded="false" signature="9670:9699" placeholder="delete from " />
-            <marker date="1483887093446" expanded="true" signature="10270:10295" placeholder="drop table i... " />
-            <marker date="1483887093446" expanded="true" signature="10313:10407" placeholder="create table... user" />
+            <element signature="e#8757#8838#1" expanded="false" />
+            <element signature="e#9007#9095#1" expanded="false" />
+            <marker date="1483973688127" expanded="true" signature="2894:2913" placeholder="create table... missing_value" />
+            <marker date="1483973688127" expanded="true" signature="6106:6419" placeholder="..." />
+            <marker date="1483973688127" expanded="false" signature="6370:6419" placeholder="..." />
+            <marker date="1483973688127" expanded="true" signature="7797:7824" placeholder="select * fro... missing_value" />
+            <marker date="1483973688127" expanded="true" signature="8171:8188" placeholder="select * fro... missing_value" />
+            <marker date="1483973688127" expanded="true" signature="8393:8411" placeholder="select * fro... missing_value" />
+            <marker date="1483973688127" expanded="true" signature="8614:8633" placeholder="select * fro... missing_value" />
+            <marker date="1483973688127" expanded="true" signature="8869:8897" placeholder="select count... missing_value" />
+            <marker date="1483973688127" expanded="true" signature="9126:9155" placeholder="select count... missing_value" />
+            <marker date="1483973688127" expanded="false" signature="9748:9777" placeholder="update `miss... " />
+            <marker date="1483973688127" expanded="false" signature="10007:10036" placeholder="delete from " />
+            <marker date="1483973688127" expanded="true" signature="10607:10632" placeholder="drop table i... " />
+            <marker date="1483973688127" expanded="true" signature="10650:10744" placeholder="create table... user" />
           </folding>
         </state>
       </provider>

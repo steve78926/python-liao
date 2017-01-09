@@ -100,17 +100,17 @@ class VersionField(Field):
 
 _triggers = frozenset(['pre_insert', 'pre_update', 'pre_delete'])               #frozenset(s) 转换为不可变集合
 
-def _gen_sql(table_name, mappings):
+def _gen_sql(table_name, mappings):                                             #mappings 是什么？应该是字段的集合，f是单独的字段属性, 该函数目标是生成创建表的sql语句
     pk = None
     sql = ['-- generating SQL for %s:' % table_name, 'create table `%s` (' % table_name]
-    for f in sorted(mappings.values(), lambda x, y: cmp(x._order, y._order)):               #dict.values() Python 字典(Dictionary) values() 函数以列表返回字典中的所有值。
+    for f in sorted(mappings.values(), lambda x, y: cmp(x._order, y._order)):               #dict.values() Python 字典(Dictionary) values() 函数以列表返回字典中的所有值。 x._order, y._order
         if not hasattr(f, 'ddl'):                                                   #hasattr(obj,name) : 检查是否存在一个属性。
-            raise StandardError('no ddl in field "%s".' % n)                        # n
+            raise StandardError('no ddl in field "%s".' % f)                        # n 从哪里来的？ n 应该是f, f代表字段
         ddl = f.ddl
         nullable = f.nullable
         if f.primary_key:
             pk = f.name
-        sql.append(nullable and '  `%s` %s,' % (f.name, ddl) or '  `%s` %s not null,' % (f.name, ddl))      #print 5> 1 and "X" or "Y"
+        sql.append(nullable and '  `%s` %s,' % (f.name, ddl) or '  `%s` %s not null,' % (f.name, ddl))      #print 5> 1 and "X" or "Y", (f.name, ddl) 表示字段名称和字段类型， not null
     sql.append('  primary key(`%s`)' % pk)
     sql.append(');')
     return '\n'.join(sql)
@@ -119,7 +119,7 @@ class ModelMetaclass(type):
     '''
     Metaclass for model objects.
     '''
-    def __new__(cls, name, bases, attrs):
+    def __new__(cls, name, bases, attrs):                           #cls表示类
         # skip base Model class:
         if name=='Model':
             return type.__new__(cls, name, bases, attrs)         #cls--当前准备创建的类的对象, name--类的名字, bases--类继承的父类集合, attrs--类的方法集合
@@ -128,7 +128,7 @@ class ModelMetaclass(type):
         if not hasattr(cls, 'subclasses'):
             cls.subclasses = {}
         if not name in cls.subclasses:
-            cls.subclasses[name] = name
+            cls.subclasses[name] = name                            #name是类名
         else:
             logging.warning('Redefine class: %s' % name)
 
@@ -136,12 +136,12 @@ class ModelMetaclass(type):
         mappings = dict()
         primary_key = None
         for k, v in attrs.iteritems():                      #items()返回的是列表对象，而iteritems()返回的是iterator对象
-            if isinstance(v, Field):
+            if isinstance(v, Field):                        #k是什么？ v是什么？
                 if not v.name:
                     v.name = k
                 logging.info('Found mapping: %s => %s' % (k, v))
                 # check duplicate primary key:
-                if v.primary_key:
+                if v.primary_key:                               #v.primary_key 是True或者False
                     if primary_key:
                         raise TypeError('Cannot define more than 1 primary key in class: %s' % name)
                     if v.updatable:
