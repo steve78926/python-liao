@@ -174,7 +174,7 @@ class Model(dict):
     ...     id = IntegerField(primary_key=True)
     ...     name = StringField()
     ...     email = StringField(updatable=False)
-    ...     passwd = StringField(default=lambda: '******')
+    ...     passwd = StringField(default=lambda: '******')                      #lambda: '******' 返回一个匿名函数， default()  输出******
     ...     last_modified = FloatField()
     ...     def pre_insert(self):
     ...         self.last_modified = time.time()
@@ -232,8 +232,8 @@ class Model(dict):
         '''
         Get by primary key.
         '''
-        d = db.select_one('select * from %s where %s=?' % (cls.__table__, cls.__primary_key__.name), pk)
-        return cls(**d) if d else None
+        d = db.select_one('select * from %s where %s=?' % (cls.__table__, cls.__primary_key__.name), pk)        # d 是一行主键记录，也是一个主键实例对象
+        return cls(**d) if d else None                      #? cls(**d) 是什么意思？
 
     @classmethod
     def find_first(cls, where, *args):
@@ -241,15 +241,15 @@ class Model(dict):
         Find by where clause and return one result. If multiple results found,
         only the first one returned. If no result found, return None.
         '''
-        d = db.select_one('select * from %s %s' % (cls.__table__, where), *args)
-        return cls(**d) if d else None
+        d = db.select_one('select * from %s %s' % (cls.__table__, where), *args)             # d 是一行记录，也是一个实例对象
+        return cls(**d) if d else None                  #? cls(**d) 是什么意思？
 
     @classmethod
     def find_all(cls, *args):
         '''
         Find all and return list.
         '''
-        L = db.select('select * from `%s`' % cls.__table__)
+        L = db.select('select * from `%s`' % cls.__table__)             #L是一组记录，也是一组实例对象
         return [cls(**d) for d in L]
 
     @classmethod
@@ -257,7 +257,7 @@ class Model(dict):
         '''
         Find by where clause and return list.
         '''
-        L = db.select('select * from `%s` %s' % (cls.__table__, where), *args)
+        L = db.select('select * from `%s` %s' % (cls.__table__, where), *args)          #L是一组记录，也是一组实例对象
         return [cls(**d) for d in L]
 
     @classmethod

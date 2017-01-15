@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18d56fb0-3eb1-40ce-bb88-66e33b98c2ff" name="默认的" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/transwarp/orm.py" afterPath="$PROJECT_DIR$/www/transwarp/orm.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/transwarp/testdebug.py" afterPath="$PROJECT_DIR$/www/transwarp/testdebug.py" />
     </list>
     <ignored path="python-liao.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -128,25 +128,25 @@
       <file leaf-file-name="orm.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/transwarp/orm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37451738">
-              <caret line="130" column="75" selection-start-line="130" selection-start-column="75" selection-end-line="130" selection-end-column="75" />
+            <state vertical-scroll-proportion="0.7358121">
+              <caret line="259" column="104" selection-start-line="259" selection-start-column="104" selection-end-line="259" selection-end-column="104" />
               <folding>
                 <element signature="e#156#176#0" expanded="true" />
-                <element signature="e#8757#8838#1" expanded="false" />
-                <element signature="e#9007#9095#1" expanded="false" />
-                <marker date="1483973688127" expanded="true" signature="2894:2913" placeholder="create table... missing_value" />
-                <marker date="1483973688127" expanded="true" signature="6106:6419" placeholder="..." />
-                <marker date="1483973688127" expanded="false" signature="6370:6419" placeholder="..." />
-                <marker date="1483973688127" expanded="true" signature="7797:7824" placeholder="select * fro... missing_value" />
-                <marker date="1483973688127" expanded="true" signature="8171:8188" placeholder="select * fro... missing_value" />
-                <marker date="1483973688127" expanded="true" signature="8393:8411" placeholder="select * fro... missing_value" />
-                <marker date="1483973688127" expanded="true" signature="8614:8633" placeholder="select * fro... missing_value" />
-                <marker date="1483973688127" expanded="true" signature="8869:8897" placeholder="select count... missing_value" />
-                <marker date="1483973688127" expanded="true" signature="9126:9155" placeholder="select count... missing_value" />
-                <marker date="1483973688127" expanded="false" signature="9748:9777" placeholder="update `miss... " />
-                <marker date="1483973688127" expanded="false" signature="10007:10036" placeholder="delete from " />
-                <marker date="1483973688127" expanded="true" signature="10607:10632" placeholder="drop table i... " />
-                <marker date="1483973688127" expanded="true" signature="10650:10744" placeholder="create table... user" />
+                <element signature="e#9268#9356#1" expanded="false" />
+                <marker date="1484492506253" expanded="true" signature="2894:2913" placeholder="create table... missing_value" />
+                <marker date="1484492506253" expanded="true" signature="6106:6418" placeholder="..." />
+                <marker date="1484492506253" expanded="true" signature="6106:6488" placeholder="..." />
+                <marker date="1484492506253" expanded="true" signature="6439:6488" placeholder="..." />
+                <marker date="1484492506253" expanded="true" signature="7866:7893" placeholder="select * fro... missing_value" />
+                <marker date="1484492506253" expanded="true" signature="8310:8327" placeholder="select * fro... missing_value" />
+                <marker date="1484492506253" expanded="true" signature="8599:8617" placeholder="select * fro... missing_value" />
+                <marker date="1484492506253" expanded="true" signature="8849:8868" placeholder="select * fro... missing_value" />
+                <marker date="1484492506253" expanded="true" signature="9130:9158" placeholder="select count... missing_value" />
+                <marker date="1484492506253" expanded="true" signature="9387:9416" placeholder="select count... missing_value" />
+                <marker date="1484492506253" expanded="false" signature="10009:10038" placeholder="update `miss... " />
+                <marker date="1484492506253" expanded="false" signature="10268:10297" placeholder="delete from " />
+                <marker date="1484492506253" expanded="true" signature="10868:10893" placeholder="drop table i... " />
+                <marker date="1484492506253" expanded="true" signature="10911:11005" placeholder="create table... user" />
               </folding>
             </state>
           </provider>
@@ -165,7 +165,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.75757575">
+            <state vertical-scroll-proportion="0.0">
               <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
               <folding />
             </state>
@@ -653,14 +653,14 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30921757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32520324" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32482597" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47851336" sideWeight="0.49785867" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6146893" sideWeight="0.50214136" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37049943" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3700696" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19512194" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3205575" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1948956" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3205575" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1116,7 +1116,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="1733" column="6" selection-start-line="1733" selection-start-column="6" selection-end-line="1733" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1124,7 +1123,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33070865">
           <caret line="1910" column="0" selection-start-line="1910" selection-start-column="0" selection-end-line="1910" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1170,6 +1168,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/transwarp/testdebug.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/transwarp/db12.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1184,43 +1198,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.75757575">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/transwarp/testdebug.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/transwarp/orm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37451738">
-          <caret line="130" column="75" selection-start-line="130" selection-start-column="75" selection-end-line="130" selection-end-column="75" />
+        <state vertical-scroll-proportion="0.7358121">
+          <caret line="259" column="104" selection-start-line="259" selection-start-column="104" selection-end-line="259" selection-end-column="104" />
           <folding>
             <element signature="e#156#176#0" expanded="true" />
-            <element signature="e#8757#8838#1" expanded="false" />
-            <element signature="e#9007#9095#1" expanded="false" />
-            <marker date="1483973688127" expanded="true" signature="2894:2913" placeholder="create table... missing_value" />
-            <marker date="1483973688127" expanded="true" signature="6106:6419" placeholder="..." />
-            <marker date="1483973688127" expanded="false" signature="6370:6419" placeholder="..." />
-            <marker date="1483973688127" expanded="true" signature="7797:7824" placeholder="select * fro... missing_value" />
-            <marker date="1483973688127" expanded="true" signature="8171:8188" placeholder="select * fro... missing_value" />
-            <marker date="1483973688127" expanded="true" signature="8393:8411" placeholder="select * fro... missing_value" />
-            <marker date="1483973688127" expanded="true" signature="8614:8633" placeholder="select * fro... missing_value" />
-            <marker date="1483973688127" expanded="true" signature="8869:8897" placeholder="select count... missing_value" />
-            <marker date="1483973688127" expanded="true" signature="9126:9155" placeholder="select count... missing_value" />
-            <marker date="1483973688127" expanded="false" signature="9748:9777" placeholder="update `miss... " />
-            <marker date="1483973688127" expanded="false" signature="10007:10036" placeholder="delete from " />
-            <marker date="1483973688127" expanded="true" signature="10607:10632" placeholder="drop table i... " />
-            <marker date="1483973688127" expanded="true" signature="10650:10744" placeholder="create table... user" />
+            <element signature="e#9268#9356#1" expanded="false" />
+            <marker date="1484492506253" expanded="true" signature="2894:2913" placeholder="create table... missing_value" />
+            <marker date="1484492506253" expanded="true" signature="6106:6418" placeholder="..." />
+            <marker date="1484492506253" expanded="true" signature="6106:6488" placeholder="..." />
+            <marker date="1484492506253" expanded="true" signature="6439:6488" placeholder="..." />
+            <marker date="1484492506253" expanded="true" signature="7866:7893" placeholder="select * fro... missing_value" />
+            <marker date="1484492506253" expanded="true" signature="8310:8327" placeholder="select * fro... missing_value" />
+            <marker date="1484492506253" expanded="true" signature="8599:8617" placeholder="select * fro... missing_value" />
+            <marker date="1484492506253" expanded="true" signature="8849:8868" placeholder="select * fro... missing_value" />
+            <marker date="1484492506253" expanded="true" signature="9130:9158" placeholder="select count... missing_value" />
+            <marker date="1484492506253" expanded="true" signature="9387:9416" placeholder="select count... missing_value" />
+            <marker date="1484492506253" expanded="false" signature="10009:10038" placeholder="update `miss... " />
+            <marker date="1484492506253" expanded="false" signature="10268:10297" placeholder="delete from " />
+            <marker date="1484492506253" expanded="true" signature="10868:10893" placeholder="drop table i... " />
+            <marker date="1484492506253" expanded="true" signature="10911:11005" placeholder="create table... user" />
           </folding>
         </state>
       </provider>
