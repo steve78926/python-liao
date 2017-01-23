@@ -178,22 +178,22 @@ class Model(dict):
     ...     last_modified = FloatField()
     ...     def pre_insert(self):
     ...         self.last_modified = time.time()
-    >>> u = User(id=10190, name='Michael', email='orm@db.org')
-    >>> r = u.insert()
+    >>> u = User(id=10190, name='Michael', email='orm@db.org')                    #调用Model类的__init__()方法，接受id, name, email的参数, 而Model类又调用？
+    >>> r = u.insert()                                                              #实例u调用父类Model的insert()方法
     >>> u.email
     'orm@db.org'
     >>> u.passwd
     '******'
     >>> u.last_modified > (time.time() - 2)
     True
-    >>> f = User.get(10190)
+    >>> f = User.get(10190)                                                         #通过类User调用父类Model的类方法get()
     >>> f.name
     u'Michael'
     >>> f.email
     u'orm@db.org'
     >>> f.email = 'changed@db.org'
-    >>> r = f.update() # change email but email is non-updatable!
-    >>> len(User.find_all())
+    >>> r = f.update() # change email but email is non-updatable!                   #实例f调用父类Model的update()方法
+    >>> len(User.find_all())                                                         #通过类User调用父类Model的类方法find_all()
     1
     >>> g = User.get(10190)
     >>> g.email
@@ -232,8 +232,8 @@ class Model(dict):
         '''
         Get by primary key.
         '''
-        d = db.select_one('select * from %s where %s=?' % (cls.__table__, cls.__primary_key__.name), pk)        # d 是一行主键记录，也是一个主键实例对象
-        return cls(**d) if d else None                      #? cls(**d) 是什么意思？
+        d = db.select_one('select * from %s where %s=?' % (cls.__table__, cls.__primary_key__.name), pk)        # d 是一行主键记录，也是一个主键实例对象，格式为字段1=value1, 字段2=value2, 字段3=value3..., 类似字典
+        return cls(**d) if d else None                      # cls(**d) , cls表示类， **d 是一个字典参数，cls(**d)返回一个实例
 
     @classmethod
     def find_first(cls, where, *args):
@@ -241,44 +241,44 @@ class Model(dict):
         Find by where clause and return one result. If multiple results found,
         only the first one returned. If no result found, return None.
         '''
-        d = db.select_one('select * from %s %s' % (cls.__table__, where), *args)             # d 是一行记录，也是一个实例对象
-        return cls(**d) if d else None                  #? cls(**d) 是什么意思？
+        d = db.select_one('select * from %s %s' % (cls.__table__, where), *args)             # d 是一行记录，也是一个实例对象， 格式为字段1=value1, 字段2=value2, 字段3=value3..., 类似字典
+        return cls(**d) if d else None                  #cls(**d) , cls表示类， **d 是一个字典参数，cls(**d)返回一个实例
 
     @classmethod
     def find_all(cls, *args):
         '''
         Find all and return list.
         '''
-        L = db.select('select * from `%s`' % cls.__table__)             #L是一组记录，也是一组实例对象
-        return [cls(**d) for d in L]
+        L = db.select('select * from `%s`' % cls.__table__)                             #L是一组记录，也是一组实例对象，格式为包含字典对象的一个列表
+        return [cls(**d) for d in L]                        #cls(**d) , cls表示类， **d 是一个字典参数，cls(**d)返回一个实例， return 返回一组实例
 
     @classmethod
     def find_by(cls, where, *args):
         '''
         Find by where clause and return list.
         '''
-        L = db.select('select * from `%s` %s' % (cls.__table__, where), *args)          #L是一组记录，也是一组实例对象
-        return [cls(**d) for d in L]
+        L = db.select('select * from `%s` %s' % (cls.__table__, where), *args)          #L是一组记录，也是一组实例对象， 格式为包含字典对象的一个列表
+        return [cls(**d) for d in L]                        #cls(**d) , cls表示类， **d 是一个字典参数，cls(**d)返回一个实例，  return 返回一组实例
 
     @classmethod
     def count_all(cls):
         '''
         Find by 'select count(pk) from table' and return integer.
         '''
-        return db.select_int('select count(`%s`) from `%s`' % (cls.__primary_key__.name, cls.__table__))
+        return db.select_int('select count(`%s`) from `%s`' % (cls.__primary_key__.name, cls.__table__))                            #返回一个整数
 
     @classmethod
     def count_by(cls, where, *args):
         '''
         Find by 'select count(pk) from table where ... ' and return int.
         '''
-        return db.select_int('select count(`%s`) from `%s` %s' % (cls.__primary_key__.name, cls.__table__, where), *args)
+        return db.select_int('select count(`%s`) from `%s` %s' % (cls.__primary_key__.name, cls.__table__, where), *args)           #返回一个整数
 
     def update(self):
         self.pre_update and self.pre_update()
         L = []
         args = []
-        for k, v in self.__mappings__.iteritems():
+        for k, v in self.__mappings__.iteritems():                                          # __mapping__.iteritems()是什么？ k是什么， v是什么？
             if v.updatable:
                 if hasattr(self, k):
                     arg = getattr(self, k)
@@ -293,7 +293,7 @@ class Model(dict):
         return self
 
     def delete(self):
-        self.pre_delete and self.pre_delete()
+        self.pre_delete and self.pre_delete()                                                   #？ 这句什么意思？  self.pre_delete是布尔值？self.pre_delete()可以调用吗？
         pk = self.__primary_key__.name
         args = (getattr(self, pk), )
         db.update('delete from `%s` where `%s`=?' % (self.__table__, pk), *args)
@@ -302,12 +302,12 @@ class Model(dict):
     def insert(self):
         self.pre_insert and self.pre_insert()
         params = {}
-        for k, v in self.__mappings__.iteritems():
+        for k, v in self.__mappings__.iteritems():                                              # __mapping__.iteritems()是什么？ k是什么， v是什么？
             if v.insertable:
                 if not hasattr(self, k):
                     setattr(self, k, v.default)
                 params[v.name] = getattr(self, k)
-        db.insert('%s' % self.__table__, **params)
+        db.insert('%s' % self.__table__, **params)                                              #**params 是关键字参数列表，格式为字典，字段1=value1, 字段2=value2
         return self
 
 if __name__=='__main__':
